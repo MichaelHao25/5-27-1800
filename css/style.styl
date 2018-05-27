@@ -1,0 +1,286 @@
+﻿@import "F:\Sourse\网页模版\fn\fn.styl"
+
+.wid
+	width:1185px;
+	margin:0 auto;
+
+
+.top
+	height 92px
+	background rgba(#000,.5)
+	position absolute
+	width 100%
+	left 0
+	.logo
+		float left
+		margin-topV 92px 56px
+	.menu
+		float right
+		ul
+			li
+				line-height 92px
+				font-size 16px
+				margin-left 66px
+				a
+					color #fff
+
+.pro-bann
+	height 468px
+	background-image url('3530e79cc6666a17069d65fabf59ae2d_1920x468.jpg')
+	
+.pro-bann1
+	height 468px
+	background-image url('76c2e871ea51a699c847ff44d06c80c5_1920x468.jpg')
+	
+.copy
+	background #2f2f2f
+	padding 35px 0
+	p
+		text-align center
+		font-size 18px
+		color #fff
+		opacity .5
+.title
+	text-align center
+	h2
+		font-size 48px
+		color #fff
+		font-style italic
+		text-transform uppercase
+		font-weight bold
+		
+	p
+		.line
+			height 1px
+			width 92px
+			opacity .5
+			display inline-block
+			background #fff
+			margin 0 15px
+		.ico-xin
+			vertical-align middle
+			margin-top 10px
+			width 18px
+			height 15px
+			display inline-block
+			background-image url('6ed71400f6ec0746720a360c165dbce0_18x15.png')
+
+.footer
+	display table
+	height 559px
+	background-image url('d7dc22172bbbc38a83a5c4178bf6448c_1920x559.jpg')
+	padding-top 90px
+	background-attachment fixed
+	ul
+		margin-top 10px
+		li
+			width 25%
+			text-align center
+			margin 20px 0
+			b
+				font-size 24px
+				font-weight normal
+				color #fff
+				display block
+				margin-top 50px
+			p
+				color #fff
+				height 36px
+				font-size 18px
+				margin-top 40px
+c=#4cca9b	
+.floor-tabs
+	margin-top 30px
+	border-bottom 2px solid #d2d2d2
+	text-align center
+	.box
+		background #fff
+		position relative
+		top 24px
+		display inline-block
+		margin 0 auto
+		a
+			width 130px
+			display inline-block
+			height 43px
+			line-height 39px
+			border 2px solid #c8c8c8
+			border-radius 15px
+			font-size 20px
+			margin 0 10px
+			&:first-child
+				margin-left 0
+			&:last-child
+				margin-right 0
+			&.acti
+				color #fff
+				background c
+				border-color c
+		
+.tit
+	text-align center
+	text-transform uppercase
+	font-size 64px
+	span
+		border-bottom 4px double #5aadb3
+	
+.floor-cg
+	margin-top 50px
+	p
+		text-align center
+		margin-top 16px
+		a
+			display inline-block
+			border 1px solid #000
+			ac c
+			line-height 39px
+			padding 0 10px
+			font-size 15px
+			margin 4px
+
+.ico-add
+	width 22px
+	height 22px
+	background-image url('86afb1a307ca251aaeb2f86e5f26c241_22x22.png')
+
+
+.series
+	margin-top 29px
+	.fl-box
+		float left
+		width 286px
+		.box
+			margin-top 10px
+			height 287px
+			mt 0
+			background c
+			text-align center
+			padding-top 80px
+			b
+				font-size 18px
+				color #fff
+				font-weight normal
+				display block
+				line-height 35px
+			p
+				color #fff
+				line-height 35px
+				font-size 16px
+				margin-top 5px
+				&.p1
+					background #a6e5ce
+					font-size 18px
+				i
+					display inline-block
+					vertical-align middle
+	.fr-box
+		widthC 286px
+		ul
+			li
+				position relative
+				img
+					width 100%
+				.box
+					z-index 1
+					padding 20px 0
+					background rgba(#fff,.5)
+					width 100%
+					center 2
+					text-align center
+					p
+						font-size 18px
+						margin-top 6px
+					
+.floor-item
+	ul
+		li
+			width 377px
+			margin-left 24.5px
+			ml 0 3
+			margin-top 48px
+			.pict
+				height 284px
+				overflow hidden
+				img
+					width 100%
+			p
+				text-align center
+				font-size 18px
+				padding-top 26px
+				border 1px solid #f5f5f5
+				padding-bottom 57px
+				border-top none
+				
+.pages
+	margin-top 56px
+	margin-bottom 58px
+	a
+		border 1px solid #e0e0e0
+		padding 6px 10px
+		display inline-block
+		transition .2s
+		&:hover
+		&.acti
+			color #8ebb2c
+			border-color #8ebb2c
+			
+
+color=c
+suback=c
+
+body{-webkit-transition: .4s ease-in-out;-o-transition: .4s ease-in-out;transition: .4s ease-in-out;left 0;position: relative;}
+.body-slide{left:-200px;}
+.min-menu{position: fixed;z-index:2;display none;top:0;height:100vh;left:100%;-webkit-transition: .4s ease-in-out;-o-transition: .4s ease-in-out;transition: .4s ease-in-out;}
+.min-menu h2{cursor: pointer;float: right;width: 30px;height:22px;margin-topV:100px 22px;right:12px;position absolute;transition .3s}
+.body-slide .min-menu{left:calc(100% - 200px);}
+.body-slide .min-menu h2 i{background: none;}
+.body-slide .min-menu h2 i:after{transform:rotate(45deg) translate(-1px,4px);}
+.body-slide .min-menu h2 i:before{transform:rotate(-45deg) translate(2px,-8px);}
+.min-menu h2 i{display: block;width:100%;height: 2px;background:color;position: relative;-webkit-transition: .3s;-o-transition: .3s;transition: .3s;}
+.min-menu h2 i:after{content: '';width: 100%;height: 2px;background: color;position: absolute;top:10px;-webkit-transition: .3s;-o-transition: .3s;transition: .3s;}
+.min-menu h2 i:before{content: '';width: 100%;height: 2px;background: color;position: absolute;top:20px;-webkit-transition: .3s;-o-transition: .3s;transition: .3s;}
+.min-menu ul{z-index:1;width: 200px;top: 0;position: absolute;height: 100%;background: #efefef;}
+.min-menu li{width: 100%;min-height: 50px;line-height:50px;text-align: center;-webkit-transition: 0.3s;-o-transition: 0.3s;transition: 0.3s;text-transform uppercase}
+.min-menu li a{display: block;-webkit-transition: .4s;transition: .4s;}
+.min-menu li:hover .down-menu{display: block;}
+.min-menu li:hover>a{color: #fff;background: suback;}
+.min-menu li .down-menu{display: none;}
+.min-menu .last{display: none;}
+.min-menu .down-menu{display: none;}
+.min-menu .down-menu a{background: #e0e0e0;}
+.min-menu .down-menu a:hover{color: #fff;background: suback;}
+
+.case
+	h1
+		margin-top 102px
+		font-weight bold
+		width auto
+	ul
+		li
+			margin-left 18px
+			ml 0 3
+			margin-top 52px
+			width 383px
+			.pict
+				height 433px
+				overflow hidden
+				img
+					width 100%
+			.text
+				background #efefef
+				overflow hidden
+				padding-bottom 20px
+				p
+					font-size 18px
+					text-align center
+					margin-top 32px
+				a
+					background #767676
+					margin-top 32px
+					display inline-block
+					color #fff
+					float right
+					padding 10px 14px
+					text-align center
+					border-radius 30px
+					margin-right 20px
